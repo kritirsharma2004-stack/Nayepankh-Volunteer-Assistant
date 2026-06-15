@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NayePankh Volunteer Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>🌟 NayePankh Volunteer Assistant</h1>
+        <p>Empowering students through AI-driven support</p>
+    </div>
+
+    <div id="chat-box" class="chat-box">
+
+        <div class="message assistant-message">
+            👋 Welcome! I'm the NayePankh Volunteer Assistant.
+            <br><br>
+            I can help you with:
+            <ul>
+                <li>Volunteering opportunities</li>
+                <li>NayePankh initiatives</li>
+                <li>Volunteer recommendations</li>
+                <li>General questions</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="typing" id="typing-indicator">
+        Assistant is typing...
+    </div>
+
+    <div class="input-section">
+
+        <input
+            type="text"
+            id="user-input"
+            placeholder="Type your message..."
+        >
+
+        <button onclick="sendMessage()">
+            Send
+        </button>
+
+    </div>
+
+    <button class="clear-btn" onclick="clearChat()">
+        Clear Chat
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
