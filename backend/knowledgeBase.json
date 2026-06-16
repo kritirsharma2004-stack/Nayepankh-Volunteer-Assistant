@@ -17,16 +17,13 @@
     },
     
     {
-        "question": "who is the founder of nayepankh foundation",
-        "answer": "NayePankh Foundation was founded by Prashant Shukla."
-    },
-    {
-        "question": "founder of nayepankh foundation",
-        "answer": "NayePankh Foundation was founded by Prashant Shukla ."
-    },
-    {
-        "question": "who founded nayepankh",
-        "answer": "NayePankh Foundation was founded by Prashant Shukla."
-    }
+    "keywords": [
+        "who is the founder of nayepankh foundation",
+        "founder of nayepankh foundation",
+        "who founded nayepankh",
+        "founder"
+    ],
+    "answer": "NayePankh Foundation was founded by Prashant Shukla."
+}
 
 ]
